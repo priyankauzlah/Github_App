@@ -1,10 +1,11 @@
-package com.uzlahpri.githubapp
+package com.uzlahpri.githubapp.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import com.uzlahpri.githubapp.R
 import com.uzlahpri.githubapp.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {

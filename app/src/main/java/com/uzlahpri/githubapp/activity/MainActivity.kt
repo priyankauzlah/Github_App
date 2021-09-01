@@ -1,4 +1,4 @@
-package com.uzlahpri.githubapp
+package com.uzlahpri.githubapp.activity
 
 import android.app.SearchManager
 import android.content.Context
@@ -7,11 +7,14 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.uzlahpri.githubapp.R
+import com.uzlahpri.githubapp.adapter.UserAdapter
+import com.uzlahpri.githubapp.model.Users
 import com.uzlahpri.githubapp.databinding.ActivityMainBinding
+import com.uzlahpri.githubapp.viewmodel.MainViewModel
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package com.uzlahpri.githubapp
+package com.uzlahpri.githubapp.model
 
 //base datanya, kalo datanya kosong mengikuti ini
 data class Users(

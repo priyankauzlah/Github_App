@@ -11,4 +11,6 @@
     <string name="search">Search</string>
     <string name="change_language">Change Language</string>
     <string name="username">priyankauzlah</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
 </resources>
