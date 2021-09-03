@@ -8,10 +8,6 @@ import android.view.ViewGroup
 import com.uzlahpri.githubapp.R
 
 class FollowersFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -20,7 +16,5 @@ class FollowersFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_followers, container, false)
     }
 
-    companion object {
 
-    }
 }
