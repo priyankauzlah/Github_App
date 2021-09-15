@@ -13,4 +13,7 @@
     <string name="username">priyankauzlah</string>
     <string name="name">Name</string>
     <string name="location">Location</string>
+    <string name="_0">0</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
 </resources>

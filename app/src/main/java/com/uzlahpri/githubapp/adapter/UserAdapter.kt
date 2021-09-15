@@ -1,5 +1,6 @@
 package com.uzlahpri.githubapp.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.uzlahpri.githubapp.R
+import com.uzlahpri.githubapp.activity.DetailActivity
 import com.uzlahpri.githubapp.model.Users
 import com.uzlahpri.githubapp.databinding.ItemUserBinding
 
@@ -28,6 +30,12 @@ class UserAdapter : RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
                 .into(itemUserBinding.ivItemUser)
 
             itemUserBinding.tvItemUsername.text = users.username
+
+            itemView.setOnClickListener {
+                val intent = Intent(itemView.context, DetailActivity::class.java)
+                intent.putExtra(DetailActivity.EXTRA_USERNAME, users.username)
+                itemView.context.startActivity(intent)
+            }
         }
     }
 
